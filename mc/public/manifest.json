@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+
+  "name": "Maria Charles",
+  "description": "This extension is exclusive for Maria Charles",
+  "version": "0.0.1",
+"author": "Maria Charles",
+  "browser_action": {
+    "default_icon": "mc.png",
+    "default_popup": "index.html",
+    "default_title": "Maria Charles"
+  },
+  "chrome_url_overrides" : {
+  "newtab": "newtab.html"
+    },
+ "permissions": ["activeTab"]
+}
